@@ -8,5 +8,5 @@ def on_forever():
     CO2_Verdi
     CO2_Verdi = ReadSensor()*4
     serial.write_value(CO2, CO2_Verdi)
-    basic.pause(1000)
+    basic.pause(60000)
 basic.forever(on_forever)
